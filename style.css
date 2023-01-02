@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-image: url('https://source.unsplash.com/1600x900/?"kolkata"');
     font-family: 'Roboto', sans-serif;
 }
 h1.temp {
@@ -54,4 +54,14 @@ h1.temp {
 }
 .search-box button:hover{
     background: #7c7c7c6b;
+}
+.flex{
+    display: flex;
+    text-align: center;
+}
+.w-type{
+   margin: 14px 5px 0 5px;
+}
+.humidity{
+    margin-bottom: 5px;
 }
